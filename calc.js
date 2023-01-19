@@ -1,18 +1,3 @@
-/* let number = {
-    a: '',
-    b: '',
-    c: '',
-}
-
-for (let key in number) {
-    if (number[key] === '') {
-        let one = prompt('Pls enter a new number', '35');
-        number[key] = one;
-    }
-    '-', '+'
-}; */
-
-
 let number = {
     a: '',
     b: '',
@@ -20,7 +5,7 @@ let number = {
     d: '',
 };
 
-const digit = ['What you want?', '1', '2', '3', '4', '5', '6', '7', '8', '9', '.'];
+const digit = ['What you want?', '1', '2', '3', '4', '5', '6', '7', '8', '9', '.', '0'];
 const action = ['X', 'ПЗ'];
 const next = ['='];
 
